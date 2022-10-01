@@ -1,4 +1,11 @@
 # logo_dumper
 Dump Xiaomi any logo.img file and extract bitmap pictures and repack
-# commandline usage
-   logo_dumper.bat logo.img extract/inject
+# usage
+``` sh
+# Unpack xiaomi logo
+python logo_dumper.py logo.img unpack
+
+# Repack xiaomi logo
+python logo_dumper.py logo.img repack
+
+```
